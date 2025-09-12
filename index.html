@@ -39,4 +39,15 @@
       <p> Responsive Menu or Navigation TailwindCss </p>
     </div>
   </body>
+  <script>
+    const btnbox = document.getElementById("btnbox");
+const menu =  document.getElementById("menu");
+const close = document.getElementById("close");
+
+  btnbox.addEventListener('click', function() {
+    menu.classList.toggle("hidden");
+      close.classList.toggle("hidden");
+    humburger.classList.toggle("hidden");
+});
+  </script>
 </html>
